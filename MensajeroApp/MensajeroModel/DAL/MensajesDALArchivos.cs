@@ -52,6 +52,7 @@ namespace MensajeroModel.DAL
                     string linea = null;
                     do
                     {
+                        linea = reader.ReadLine();
                         if (linea != null)
                         {
                             string[] textoArray = linea.Split(';');
